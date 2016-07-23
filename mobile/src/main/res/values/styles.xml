@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AttractionButton">
+        <item name="android:paddingLeft">@dimen/margin_medium_2</item>
+        <item name="android:paddingRight">@dimen/margin_medium_2</item>
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textColor">@color/text_white_ish</item>
+    </style>
+
+    <!--android:backgroundTint = background -->
+    <style name="PrimaryButton" parent="AttractionButton">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+
+    </style>
+
+    <style name="AccentButton" parent="AttractionButton">
+        <item name="android:backgroundTint">@color/accent_dark</item>
+    </style>
+
+</resources>
